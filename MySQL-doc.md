@@ -19,7 +19,7 @@
 >mysql -h主机地址 -u 用户名 -p 用户密码
 
 >show databases
-##新建数据库stu
+## 新建数据库stu
 >create database stu
-##设计三张表
+## 设计三张表
 
