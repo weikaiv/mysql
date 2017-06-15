@@ -5,6 +5,7 @@
 > sudo vim /etc/apt/sources.list
 
 >粘贴源（若无法复制粘贴在vim .vimrc做修改）
+
 deb http://mirrors.aliyun.com/ubuntu/ xenial main restricted universe multiverse
 deb http://mirrors.aliyun.com/ubuntu/ xenial-security main restricted universe multiverse
 deb http://mirrors.aliyun.com/ubuntu/ xenial-updates main restricted universe multiverse
