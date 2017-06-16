@@ -1,6 +1,11 @@
 [2017-06-15](Daily tasks/20170615.md)
+
 [2017-06-16](Daily tasks/20170616.md)
+
 [2017-06-17](Daily tasks/20170617.md)
+
 [2017-06-19](Daily tasks/20170619.md)
+
 [2017-06-20](Daily tasks/20170620.md)
+
 [2017-06-21](Daily tasks/20170621.md)
