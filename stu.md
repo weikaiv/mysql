@@ -27,4 +27,4 @@
 ------|-----|---------|-----|--------|-----
  学号 | id | int(4) | √ |  | check(id>0),**外键**
  课程号 | cid | int(4) | √ |  | check(id>0)，**外键**
- 成绩 | score| double(3,2) |  | default'0' | check(sid>=0 and sgrade<=100)
+ 成绩 | score| double(4,1) |  | default'0' | check(sid>=0 and sgrade<=100)
