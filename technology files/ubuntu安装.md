@@ -2,10 +2,15 @@
 > 1、进入VMware，点击标红处，如下图所示
 []()
 > 2、点击next，进入如下界面
+[]()
 > 3、在标红处选择已下载的Ubuntu镜像的路径（可在Ubuntu.com中的的desktop中下载），如下图所示
+[]()
 > 4、继续点击next
-> 5、fullname设为：linux，密码设为1
-> 6、继续点击next，选择好安装位置
+
+> 5、fullname设为：linux，密码设为1，如下图
+[]()
+> 6、继续点击next，选择好安装位置，如下图所示
+[]()
 > 7、继续next一直到finish，安装完成
 ## Linux环境下文件基本操作
 > touch  file
