@@ -13,7 +13,7 @@ sudo dpkg -i atom-amd64.deb
 ### 设置atom
 > 1、安装成功后搜索atom，进入atom，设置步骤如下图所示：
 ###  Atom editor 开环境使用的插件
-#### 
+#### 插件列表
 * activate-power-mode：动感插件 atl + ctrl + o :打开插件
 * vim-mode：vim模式
 * ex-mode：实现:w功能
@@ -31,4 +31,6 @@ sudo dpkg -i atom-amd64.deb
 * atom-clock: 在bar显示 时间
 * autocomplete-js-import: 模块导入智能提示
 * autocomplete-modules: 模块智能提示【node_modules】
+### 插件加载
+插件下载举例，如下图所示：
 
