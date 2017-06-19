@@ -1,6 +1,6 @@
 ## ubuntu安装
 > 1、进入VMware，点击标红处，如下图所示
-[]()
+[](img/1.png)
 > 2、点击next，进入如下界面
 []()
 > 3、在标红处选择已下载的Ubuntu镜像的路径（可在Ubuntu.com中的的desktop中下载），如下图所示
