@@ -6,13 +6,12 @@
 ## 每日任务
 [补2017-06-15之前](https://github.com/weikaiv/mysql/blob/master/Daily%20tasks/20170615.md)
 
-[2017-06-15](Daily tasks/20170615.md)
+[2017-06-15](https://github.com/weikaiv/mysql/blob/master/Daily%20tasks/20170615.md)
 
-[2017-06-16](Daily tasks/20170616.md)
+[2017-06-16](https://github.com/weikaiv/mysql/blob/master/Daily%20tasks/20170616.md)
 
+[2017-06-19](https://github.com/weikaiv/mysql/blob/master/Daily%20tasks/20170619.md)
 
-[2017-06-19](Daily tasks/20170619.md)
+[2017-06-20](https://github.com/weikaiv/mysql/blob/master/Daily%20tasks/20170620.md)
 
-[2017-06-20](Daily tasks/20170620.md)
-
-[2017-06-21](Daily tasks/20170621.md)
+[2017-06-21](https://github.com/weikaiv/mysql/blob/master/Daily%20tasks/20170621.md)
