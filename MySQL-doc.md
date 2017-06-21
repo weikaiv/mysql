@@ -4,7 +4,7 @@
 ## 数据库设计
 [数据库设计](./stu.md)
 ## 每日任务
-[补2017-06-15之前](Daily tasks/before20170615.md)
+[补2017-06-15之前](https://github.com/weikaiv/mysql/blob/master/Daily%20tasks/20170615.md)
 
 [2017-06-15](Daily tasks/20170615.md)
 
