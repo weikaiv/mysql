@@ -49,8 +49,6 @@ mv dir  /home/linux/
 
 rm  dir  -rf
 
-ls -d  dir
-
 find  ./dir  -name  "filename"
 ### 文件的归档和压缩
 > tar:                打包压缩
