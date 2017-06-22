@@ -5,13 +5,20 @@
 wget -c https://github.com/atom/atom/releases/download/v1.18.0/atom-amd64.deb
 
 链接位置如下图所示：
-[]( img/6.jpg )
+
+![](https://github.com/weikaiv/mysql/blob/master/img/6.jpg)
 ### atom安装
 > 1、安装atom-amd64.deb
 
 sudo dpkg -i atom-amd64.deb
 ### 设置atom
 > 1、安装成功后搜索atom，进入atom，设置步骤如下图所示：
+(1)
+
+![](https://github.com/weikaiv/mysql/blob/master/img/7.png)
+(2)
+
+![](https://github.com/weikaiv/mysql/blob/master/img/8.png)
 ###  Atom editor 开环境使用的插件
 #### 插件列表
 * activate-power-mode：动感插件 atl + ctrl + o :打开插件
@@ -34,3 +41,4 @@ sudo dpkg -i atom-amd64.deb
 ### 插件加载
 插件下载举例，如下图所示：
 
+![](https://github.com/weikaiv/mysql/blob/master/img/9.png)
