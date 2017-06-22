@@ -67,3 +67,10 @@ create table information(
   foreign key(cid) references course(cid)
   )default charset=utf8;
  ```
+ #### 教师信息表设计
+  字段 | 英文 | 字段类型 | 主键 | 默认值 | 备注
+------|-----|---------|-----|--------|-----
+ 教师编号 | id | int(4) | √ |  | check(id>0),**外键**
+ 课程号 | cid | int(4) | √ |  | check(id>0)，**外键**
+ 成绩 | score| double(4,1) |  | default'0' | check(sid>=0 and sgrade<=100)
+ #### 教师信息表创建
