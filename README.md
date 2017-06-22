@@ -9,7 +9,7 @@
 
 [git安装.md](https://github.com/weikaiv/mysql/blob/master/technology%20files/git%E5%AE%89%E8%A3%85.md)
 
-[创建版本库.md](https://github.com/weikaiv/mysql/blob/master/technology%20files/%E5%88%9B%E5%BB%BA%E7%89%88%E6%9C%AC%E5%BA%93.md)
+[创建版本库及连接远程github仓库.md](https://github.com/weikaiv/mysql/blob/master/technology%20files/%E5%88%9B%E5%BB%BA%E7%89%88%E6%9C%AC%E5%BA%93%E5%8F%8A%E8%BF%9E%E6%8E%A5%E8%BF%9C%E7%A8%8Bgithub%E4%BB%93%E5%BA%93.md)
 
 [mysql.md](https://github.com/weikaiv/mysql/blob/master/technology%20files/mysql.md)
 
