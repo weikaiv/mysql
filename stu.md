@@ -3,11 +3,11 @@
 #### 学校信息表设计
  字段 | 英文 | 字段类型 | 主键 | 默认值 | 备注
 ------|-----|---------|-----|--------|-----
- 编号 | sid | int(4) | √ |  | 自动增加，要求(sid>0)
- 校名 | sname | varchar(20) |  |  | not null
- 院系 | sdept | varchar(20) |  |  | not null
- 专业 | smajor | varchar(20) |  |  | not null
- 班级 | sclass | varchar(10) |  |  | not null
+ 编号 | sid | int(4) | √ | 自动增加，要求(sid>0)
+ 校名 | sname | varchar(20) |  | not null
+ 院系 | sdept | varchar(20) |  | not null
+ 专业 | smajor | varchar(20) |  | not null
+ 班级 | sclass | varchar(10) |  | not null
 #### 学校信息表创建
 ```sql
 create table school( 
@@ -21,12 +21,12 @@ create table school(
 #### 学生信息表设计
  字段 | 英文 | 字段类型 | 主键 | 默认值 | 备注
 ------|-----|---------|-----|--------|-----
- 学号 | id | int(4) | √ | check(id>0)
- 姓名 | name | varchar(10) |  | not null
- 性别 | sex | varchar(6) |  | not null check(sex in('男','女'))
+ 学号 | id | int(4) | √ |  | check(id>0)
+ 姓名 | name | varchar(10) |  |  | not null
+ 性别 | sex | varchar(6) |  |   |not null check(sex in('男','女'))
  年龄 | age | int(4) |   |  | not null
  状态 | state | smallint |  |  default 0 |
- 院校编号 | sid | int(4) |  |**外键**
+ 院校编号 | sid | int(4) |  |  | **外键**
  #### 学生信息表创建
  ```sql
 create table information(
