@@ -42,3 +42,25 @@ git log
 > 12、比较变化：
 
 git diff
+### 连接远程github仓库
+1、如所示，先在自己的github远程端新建一个仓库
+ 
+2、在远程端建立仓库时，要注意两个地方，如所示，首先要写上仓库名，有重名时系统会在后面提示一个×，此时要修改一个不与曾经建的仓库重名的仓库名，系统会在后面提示√。其次，注意要选择public类型，若为private是要交钱的。
+ 
+3、创建好远程仓库后会跳转到如所示界面，上面有此远程仓库的链接地址。
+ 
+
+4、上传到github远程仓库上：
+* 在命令行执行git remote add origin https://github.com/weikaiv/github.git
+* 查看有哪些分支：git branch –av
+* 把分支保存到上述github仓库：git push，如果出错的话，可能改成git push origin master就可以了，之后再输入用户名和密码
+* 保存到git仓库后可以用git branch –av查看是否处于同一状态，如所示，是，则成功
+ 
+
+5、从github远程仓库上拿下来：
+* 建一个文件夹other文件夹
+* 进入目录cd other
+* git clone +远程仓库链接地址
+* git pull 或git pull origin master
+* 注：若第一次做，需要完成上述全部步骤，之后就直接做最后一步即可
+
