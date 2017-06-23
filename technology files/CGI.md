@@ -51,7 +51,6 @@ fprintf(stdin, "helloworld\n")  等价于 printf("helloworld\n);
 
 功能：初始化函数，参数为NULL即可，接收返回值
      失败，NULL
-     
      比如：
      ```c
      MYSQL *db;
