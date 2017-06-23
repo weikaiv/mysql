@@ -45,15 +45,15 @@ git diff
 ### 连接远程github仓库
 1、如图所示，先在自己的github远程端新建一个仓库
 
-![](img/10.png)
+![](https://github.com/weikaiv/mysql/blob/master/img/10.png)
 
 2、在远程端建立仓库时，要注意两个地方，如图所示，首先要写上仓库名，有重名时系统会在后面提示一个×，此时要修改一个不与曾经建的仓库重名的仓库名，系统会在后面提示√。其次，注意要选择public类型，若为private是要交钱的。
 
-![](mysql/11.png)
+![](https://github.com/weikaiv/mysql/blob/master/img/11.png)
 
 3、创建好远程仓库后会跳转到如图所示界面，上面有此远程仓库的链接地址。
 
-![](mysql/12.png)
+![](https://github.com/weikaiv/mysql/blob/master/img/12.png)
 
 4、上传到github远程仓库上：
 * 在命令行执行git remote add origin https://github.com/weikaiv/github.git
