@@ -89,7 +89,7 @@ create table information(
  select information.id,name,sex,age,state,sname,sdept,smajor,sclass,cname,sgrade from school,information,score,course
  where school.sid=information.sid and information.id=score.id and score.cid=course.cid;
 ```
- ### 创建视图allinfo,连接school，information
+ ### 创建视图ainfo,连接school，information
 ```sql
  create view ainfo
  as
