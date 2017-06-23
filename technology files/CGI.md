@@ -12,7 +12,6 @@ CGI规范允许Web服务器执行外部程序，并将它们的输出发送给We
 4、改完目录的权限, 方便对目录下的文件写：sudo mkdir /usr/lib/cgi-bin/sx      sudo chmod 777 /usr/lib/cgi-bin/sx
 ### vim Makefile
 1、install:
-
 	cp *.cgi /usr/lib/cgi-bin/sx
 ### 安装mysql的C语言库
 1、sudo apt-get install libmysqlclient-dev
@@ -30,7 +29,6 @@ cgiFormResultType   cgiFormString(char *name, char *result, int max);
 比如： cgiFormString("name", result,  16);可以获得最多16个字符并且保存于result中
 
 2、输出函数fprintf
-
      int fprintf(FILE *stream, const char *format, ...);
      
 功能： 将格式化的语句输出到指定的流
@@ -38,7 +36,6 @@ cgiFormResultType   cgiFormString(char *name, char *result, int max);
 fprintf(stdin, "helloworld\n")  等价于 printf("helloworld\n);
 
 3、字符串转换函数atoi
-
      int atoi(const char *nptr);
      
      参数：nptr为网页上输入的字符串数据名称
@@ -48,13 +45,11 @@ fprintf(stdin, "helloworld\n")  等价于 printf("helloworld\n);
     比如：sprintf(sql, "select * from information where id =%d", atoi(stuId));
 
 4、初始化函数
-
      MYSQL *mysql_init(MYSQL *mysql)
      
 参数：  定义的数据库指针
 
 功能：初始化函数，参数为NULL即可，接收返回值
-
      失败，NULL
      
      比如：
@@ -72,19 +67,12 @@ fprintf(stdin, "helloworld\n")  等价于 printf("helloworld\n);
    MYSQL *mysql_real_connect(MYSQL *mysql, const char *host, const char *user, const char *passwd, const char *db, unsigned int port, const char * unix_socket, unsigned long client_flag)
    
 参数：  mysql，定义的数据库指针
-
         host，本地IP  
-	
         user，用户名
-	
         passwd，密码
-	
         db，建立的数据库名
-	
         port，端口号3306
-	
         unix_socket，套接字，NULL
-	
         flag ，标志位0
 	
 功能：连接mysql服务器
@@ -113,9 +101,7 @@ if (db == NULL)
  int mysql_real_query(MYSQL *mysql, const char *stmt_str, unsigned long length)
  
 参数：  mysql，定义的数据库指针
-
         stmt_str,，Sql
-	
         length ，Sql语句长度
 	
 功能：执行sql语句，sql语句不能以“；”结尾
@@ -151,7 +137,6 @@ if ((ret = mysql_real_query(db, sql, strlen(sql) + 1)) != 0)
 fprintf(cgiOut,"mysql_real_query fail:%s\n", mysql_error(db));
 ```
 10、访问表中每一条记录值
-
           MYSQL_ROW mysql_fetch_row(MYSQL_RES *result)
 	  
 参数：  result ，MySQL_RES型结构体，存储mysql_query()
