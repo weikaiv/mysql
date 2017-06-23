@@ -14,6 +14,8 @@
 [mysql.md](https://github.com/weikaiv/mysql/blob/master/technology%20files/mysql.md)
 
 [atom安装.md](https://github.com/weikaiv/mysql/blob/master/technology%20files/atom%E5%AE%89%E8%A3%85.md)
+
+[CGI.md](technologyfiles/CGI.md)
 ## 数据库设计
 [数据库设计](./stu.md)
 ## 每日任务
